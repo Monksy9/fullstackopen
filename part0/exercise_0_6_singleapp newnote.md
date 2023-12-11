@@ -1,4 +1,5 @@
-<div class="mermaid">
+```mermaid
+
 sequenceDiagram
     participant browser
     participant server
@@ -7,4 +8,3 @@ sequenceDiagram
     activate server
     server-->>browser: Message "Note created" and status code
     deactivate server
-</div>
